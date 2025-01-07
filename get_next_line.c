@@ -6,7 +6,7 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 01:15:03 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/12/20 14:46:00 by afodil-c         ###   ########.fr       */
+/*   Updated: 2025/01/07 09:58:04 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ char	*ft_buffer(int fd, char *buffer)
 		}
 		buffer = ft_strjoin(buffer, tmp);
 		if (!buffer)
-			return NULL;
+			return (0);
 		free(tmp);
 		if (bytes == 0 || ft_newline(buffer))
 			break ;

@@ -6,7 +6,7 @@
 /*   By: afodil-c <afodil-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 01:15:18 by afodil-c          #+#    #+#             */
-/*   Updated: 2024/12/20 10:28:06 by afodil-c         ###   ########.fr       */
+/*   Updated: 2025/01/07 09:58:01 by afodil-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 # ifndef BUFFER_SIZE
 
-#  define BUFFER_SIZE 0
+#  define BUFFER_SIZE 1
 
 # endif
 
